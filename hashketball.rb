@@ -165,7 +165,7 @@ result_hash = {}
      data.each do |player|
       if player[:player_name] == players_name
   
-  end 
+   end 
  end 
 
 

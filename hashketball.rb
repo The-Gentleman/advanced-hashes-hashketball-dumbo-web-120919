@@ -164,11 +164,12 @@ result_hash = {}
    if stats == players
     data.each do |player|
      if player[:player_name] == players_name
-      
-    end 
-   end 
+    
+     end 
+    end
+   end    
   end 
- end 
+ end  
 end  
 
 

@@ -139,7 +139,7 @@ def team_names
   team[:team_name]
  end  
 end 
-team_names
+p team_names
 
 
 

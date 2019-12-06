@@ -135,7 +135,9 @@ def team_colors(team)
 end 
 
 def team_names
+game_hash.reduce do 
 
+end 
 end 
 
 

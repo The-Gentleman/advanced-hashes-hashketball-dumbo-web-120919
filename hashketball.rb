@@ -137,6 +137,7 @@ end
 def team_names
  array = []
  game_hash.each do |place, team|
+   array << tea
 end 
 
 

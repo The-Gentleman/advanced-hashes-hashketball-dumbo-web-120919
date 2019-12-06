@@ -136,8 +136,7 @@ end
 
 def team_names
  arr = []
- 
- 
+ game_hash
  
 end 
 

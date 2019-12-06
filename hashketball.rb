@@ -136,7 +136,7 @@ end
 
 def team_names
  game_hash.map do |place, team|
- 
+  return team
  end
 end 
 

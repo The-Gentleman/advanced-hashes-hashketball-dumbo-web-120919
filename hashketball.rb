@@ -157,7 +157,7 @@ array = []
 array 
 end 
 
-def player_stats(play)
+def player_stats(players_name)
  
 
 end  

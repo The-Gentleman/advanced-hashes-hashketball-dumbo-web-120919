@@ -158,21 +158,21 @@ array
 end 
 
 def player_stats(name)
-result_hash = {}
- game_hash.each do |derp, team|
-  team.each do |stats,data|
-   if stats == :players
-    data.each do |player|
-     if player[:player_name] == name
-      result_hash = player.delete_if do |key, value|
-        key = :player_name
-      end 
-     end 
-    end
-   end    
-  end 
- end
-result_hash 
+# result_hash = {}
+# game_hash.each do |derp, team|
+#   team.each do |stats,data|
+#   if stats == :players
+#     data.each do |player|
+#     if player[:player_name] == name
+#       result_hash = player.delete_if do |key, value|
+#         key = :player_name
+#       end 
+#     end 
+#     end
+#   end    
+#   end 
+# end
+# result_hash 
 end  
 
 

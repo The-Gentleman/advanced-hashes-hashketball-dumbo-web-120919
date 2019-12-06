@@ -136,7 +136,9 @@ end
 
 def team_names
   arr = []
-  game_hash.each do 
+  game_hash.each do |place, team|
+  
+  end
 end 
 
 

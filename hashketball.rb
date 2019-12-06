@@ -158,8 +158,8 @@ array
 end 
 
 def player_stats(players_name)
-hash = {}
-
+ hash = {}
+ game_hash.each do |place,name|
 
 
 

@@ -164,8 +164,8 @@ result_hash = {}
    if stats == :players
     data.each do |player|
      if player[:player_name] == name
-      result_hash = player.delete_if do 
-        
+      result_hash = player.delete_if do |key, value|
+        key = :player_name
      end 
     end
    end    

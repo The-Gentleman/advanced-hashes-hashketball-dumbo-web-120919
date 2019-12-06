@@ -128,7 +128,6 @@ def shoe_size(name)
 end 
 
 def team_colors(team)
-  binding.pry
   if team == "Brookyln Nets" 
    return game_hash[:home][:colors]
   else return game_hash[:home][:colors]

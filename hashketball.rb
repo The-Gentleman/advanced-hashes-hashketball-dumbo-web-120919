@@ -130,7 +130,7 @@ end
 def team_colors(team)
   if team == "Brookyln Nets" 
     return game_hash[:away][:colors]
-  else return game_hash[:away][:colors]
+  else return game_hash[:home][:colors]
   end   
 end 
 

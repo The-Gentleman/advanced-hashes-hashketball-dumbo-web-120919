@@ -142,7 +142,7 @@ def team_names
 end  
 
 def player_numbers(data)
-    output = []
+    array = []
   game_hash.each do |team, team_info|
     if team_info[:team_name] == data
       team_info.each do |key, value|
@@ -154,7 +154,7 @@ def player_numbers(data)
       end
     end
   end
- output 
+ array 
 end 
 
 

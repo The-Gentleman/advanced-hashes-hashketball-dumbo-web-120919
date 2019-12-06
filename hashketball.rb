@@ -138,7 +138,6 @@ def team_names
 
  game_hash.map do |derp, team|
   return team[:team_name]
-  return team[:]
  end  
 
 end 

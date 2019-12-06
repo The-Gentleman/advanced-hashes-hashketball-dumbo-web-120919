@@ -154,7 +154,7 @@ def player_numbers(input)
       end
     end
   end
-  return output 
+ output 
 end 
 
 

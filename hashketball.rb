@@ -159,8 +159,8 @@ end
 
 def player_stats(name)
 result_hash = {}
-game_hash.each do 
-
+ game_hash.each do |derp, team|
+ end 
 
 
 result_hash

@@ -162,7 +162,8 @@ result_hash = {}
  game_hash.each do |derp, team|
   team.each do |stats,data|
    if stats == players
-     data.each do ||
+     data.each do |player|
+      
   end 
  end 
 

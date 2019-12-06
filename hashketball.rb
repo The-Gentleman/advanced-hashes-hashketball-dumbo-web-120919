@@ -166,6 +166,7 @@ result_hash = {}
      if player[:player_name] == name
       result_hash = player.delete_if do |key, value|
         key = :player_name
+      end 
      end 
     end
    end    

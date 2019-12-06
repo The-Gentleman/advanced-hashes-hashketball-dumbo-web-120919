@@ -161,7 +161,7 @@ def player_stats(name)
 result_hash = {}
  game_hash.each do |derp, team|
   team.each do |stats,data|
-   if stats == players
+   if stats == :players
     data.each do |player|
      if player[:player_name] == players_name
       result_hash = player

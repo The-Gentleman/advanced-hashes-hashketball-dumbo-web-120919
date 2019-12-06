@@ -141,19 +141,20 @@ def team_names
  teams
 end  
 
-def player_stats(input)
-  game_hash.each do |team, team_info|
-    team_info.each do |key, value|
-      if key == :players
-        value.each do |player|
-          if input == player[:player_name]
-            player.delete(:player_name) # having player name inside the hash was a bad idea!
-            return player
+def player_numbers(data)
+array = []
+  game_hash.each do |team, team_stats|
+    if team_stats[:team_name] == data
+      team_stats.each do |key, value|
+        if key == :players
+          value.each do |player|
+          array << player[:number]
           end
         end
       end
     end
   end
+array 
 end 
 
 def player_stats(players_name)

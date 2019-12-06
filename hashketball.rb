@@ -148,7 +148,7 @@ def player_numbers(input)
       team_info.each do |key, value|
         if key == :players
           value.each do |player|
-          output.push(player[:number])
+          output << player[:number]
           end
         end
       end

@@ -135,9 +135,9 @@ def team_colors(team)
 end 
 
 def team_names
- array = []
- game_hash.each do |place, team|
-   array << tea
+  game_hash.map do |place, team|
+   puts team[:team_names]
+  end
 end 
 
 

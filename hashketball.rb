@@ -162,13 +162,13 @@ result_hash = {}
  game_hash.each do |derp, team|
   team.each do |stats,data|
    if stats == players
-     data.each do |player|
-      if player[:player_name] == players_name
-  
+    data.each do |player|
+     if player[:player_name] == players_name
+      
+    end 
    end 
+  end 
  end 
+ end  
 
-
-result_hash
-end 
 

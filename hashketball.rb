@@ -143,9 +143,9 @@ end
 
 def player_numbers(data)
     array = []
-  game_hash.each do |team, team_info|
-    if team_info[:team_name] == data
-      team_info.each do |key, value|
+  game_hash.each do |team, team_stats|
+    if team_stats[:team_name] == data
+      team_stats.each do |key, value|
         if key == :players
           value.each do |player|
           array << player[:number]

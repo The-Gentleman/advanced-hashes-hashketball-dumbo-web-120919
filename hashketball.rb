@@ -158,5 +158,8 @@ array
 end 
 
 def player_stats(name)
+result_hash = {}
+
+result_hash
 end 
 

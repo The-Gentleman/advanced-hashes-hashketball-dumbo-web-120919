@@ -135,11 +135,9 @@ def team_colors(team)
 end 
 
 def team_names
- arr = []
- game_hash.each do |place,team|
-  arr << team[:team_name]
- end
-arr  
+  game_hash.map do |team, team_info|
+    team_info[:team_name]
+  end  
 end 
 
 

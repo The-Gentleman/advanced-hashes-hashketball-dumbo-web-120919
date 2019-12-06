@@ -135,6 +135,7 @@ def team_colors(team)
 end 
 
 def team_names
+ binding.pry
  game_hash.reduce do |team, team_data|
   team_data[:team_name]
  end 

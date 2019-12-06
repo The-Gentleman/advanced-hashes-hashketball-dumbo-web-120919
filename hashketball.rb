@@ -135,7 +135,7 @@ def team_colors(team)
 end 
 
 def team_names
-game_hash.reduce do 
+game_hash.reduce do |team, team_data|
 
 end 
 end 

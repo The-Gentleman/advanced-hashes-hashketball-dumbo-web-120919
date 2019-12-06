@@ -129,6 +129,7 @@ end
 
 def team_colors(team)
   if team == "Brookyln Nets" 
+   binding.pry
     return game_hash[:away][:colors]
   else return game_hash[:home][:colors]
   end   

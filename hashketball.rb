@@ -138,9 +138,9 @@ def team_names
 # game_hash.map do |derp, team|
 #   team[:team_name]
  teams = [game_hash[:home][:team_name], game_hash[:away][:team_name]]
-teams
-end  
 p teams
+end  
+
 
 
 

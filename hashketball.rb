@@ -136,8 +136,8 @@ end
 
 def team_names(name)
  arr = []
- game_hash.each do |place,team|
-  arr << team[:team_name]
+ game_hash.each do |place,name|
+  arr << name[:team_name]
  end
 arr  
 end 

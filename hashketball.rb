@@ -157,23 +157,20 @@ array = []
 array 
 end 
 
-def player_stats(players_name)
- hash = {}
- game_hash.each do |place,team|
-  team.each do |attributes, data|
-   if attributes == :players
-    data.each do |player|
-     if player[:players_name] == players_name
-      hash = player.delete_if do |key, value|
-       key == :players_name
-      end 
-     end 
-    end  
-   end 
-  end   
- end 
-hash 
-end  
+def player_stats(input)
+  game_hash.each do |team, team_info|
+    team_info.each do |key, value|
+      if key == :players
+        value.each do |player|
+          if input == player[:player_name]
+            player.delete(:player_name) # having player name inside the hash was a bad idea!
+            return player
+          end
+        end
+      end
+    end
+  end
+end 
 
 
 def big_shoe_rebounds

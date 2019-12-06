@@ -160,7 +160,9 @@ end
 def player_stats(players_name)
  hash = {}
  game_hash.each do |place,team|
- 
+  team.each do |attribute, data|
+   
+  end   
  end 
 
 

@@ -160,8 +160,8 @@ end
 def player_stats(players_name)
  hash = {}
  game_hash.each do |place,team|
-  team.each do |attribute, data|
-   if attribute == :players
+  team.each do |attributes, data|
+   if attributes == :players
     data.each do |player|
      if player[:players_name] == players_name
       hash = player.delete_if do |key, value|

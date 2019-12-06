@@ -136,7 +136,7 @@ end
 
 def team_names
   game_hash.map do |place, team|
-   return team[:team_names]
+   puts team[:team_names]
   end
 end 
 
